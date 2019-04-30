@@ -20,6 +20,7 @@ Below instructions show how to build the modified fio and our kernel framework.
 
 We use flexible I/O tester (fio) to generate a manipulated access pattern to extract useful feature parameters. Building the modified fio is really simple. Please execute below commands in the fio's source directory (**tools/fio**).
 
+首先确认安装libaio-dev or libaio-devel
 ```
 ./configure
 make
